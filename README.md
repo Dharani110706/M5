@@ -63,7 +63,7 @@ Write a C program to calculate the Product of first 12 natural numbers using Rec
 
 unsigned long long product(int n) {
     if (n == 1) {
-        return 1; // Base case
+        return 1; 
     } else {
         return n * product(n - 1); 
     }
@@ -238,7 +238,7 @@ int main() {
     int arr[6];
     int *ptr;
 
-    ptr = arr; // Point ptr to the array
+    ptr = arr; 
 
     printf("Enter 6 integer elements:\n");
     for (int i = 0; i < 6; i++) {
